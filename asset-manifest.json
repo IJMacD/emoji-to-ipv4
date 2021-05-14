@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/emoji-to-ipv4/static/css/main.0c453569.chunk.css",
-    "main.js": "/emoji-to-ipv4/static/js/main.e04f510c.chunk.js",
-    "main.js.map": "/emoji-to-ipv4/static/js/main.e04f510c.chunk.js.map",
+    "main.css": "/emoji-to-ipv4/static/css/main.6ec9738c.chunk.css",
+    "main.js": "/emoji-to-ipv4/static/js/main.bb77b753.chunk.js",
+    "main.js.map": "/emoji-to-ipv4/static/js/main.bb77b753.chunk.js.map",
     "runtime-main.js": "/emoji-to-ipv4/static/js/runtime-main.ff12b82f.js",
     "runtime-main.js.map": "/emoji-to-ipv4/static/js/runtime-main.ff12b82f.js.map",
-    "static/js/2.ac2c24c7.chunk.js": "/emoji-to-ipv4/static/js/2.ac2c24c7.chunk.js",
-    "static/js/2.ac2c24c7.chunk.js.map": "/emoji-to-ipv4/static/js/2.ac2c24c7.chunk.js.map",
+    "static/js/2.16aa0eb0.chunk.js": "/emoji-to-ipv4/static/js/2.16aa0eb0.chunk.js",
+    "static/js/2.16aa0eb0.chunk.js.map": "/emoji-to-ipv4/static/js/2.16aa0eb0.chunk.js.map",
     "index.html": "/emoji-to-ipv4/index.html",
-    "static/css/main.0c453569.chunk.css.map": "/emoji-to-ipv4/static/css/main.0c453569.chunk.css.map",
-    "static/js/2.ac2c24c7.chunk.js.LICENSE.txt": "/emoji-to-ipv4/static/js/2.ac2c24c7.chunk.js.LICENSE.txt"
+    "static/css/main.6ec9738c.chunk.css.map": "/emoji-to-ipv4/static/css/main.6ec9738c.chunk.css.map",
+    "static/js/2.16aa0eb0.chunk.js.LICENSE.txt": "/emoji-to-ipv4/static/js/2.16aa0eb0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ff12b82f.js",
-    "static/js/2.ac2c24c7.chunk.js",
-    "static/css/main.0c453569.chunk.css",
-    "static/js/main.e04f510c.chunk.js"
+    "static/js/2.16aa0eb0.chunk.js",
+    "static/css/main.6ec9738c.chunk.css",
+    "static/js/main.bb77b753.chunk.js"
   ]
 }

@@ -23,6 +23,7 @@ function App() {
             <div key={i} className="IPEntry">
               <p className="IPAddress">{ipv4}</p>
               <p className="Status">{assignment.Status} - {assignment.Designation}</p>
+              <p className="Lookup"><a href={`https://db-ip.com/${ipv4}`} target="_blank">Lookup</a></p>
             </div>
           );
         })

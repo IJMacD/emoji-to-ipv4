@@ -3,6 +3,15 @@
   flex-direction: column;
 }
 
+.ModeButton {
+  margin-left: 2em;
+  background: none;
+  border: none;
+  color: darkblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .EmojiInput {
   font-size: 2em;
   margin: 1em;

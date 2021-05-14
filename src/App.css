@@ -23,3 +23,10 @@
   font-size: 1.5em;
   margin: 0;
 }
+
+.ByteList {
+  color: #666;
+  font-size: 0.8em;
+  margin-top: -2em;
+  margin-left: 2rem;
+}

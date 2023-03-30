@@ -4,15 +4,12 @@ import './App.css';
 
 export default function ReverseApp() {
   const [ input, setInput ] = useState("");
+  const [ myIP, setMyIP ] = useState("");
 
   useEffect(() => {
-    fetch(`https://freegeoip.app/json/`).then(r => r.json()).then(d => {
-      setInput(input => {
-        if (input === "") {
-          return d.ip;
-        }
-        return input;
-      });
+    fetch(`https://api.ipify.org?format=json`).then(r => r.json()).then(d => {
+      setInput(input => (input === "") ? d.ip : input);
+      setMyIP(d.ip);
     });
   }, []);
 
@@ -52,12 +49,13 @@ export default function ReverseApp() {
   }
   catch (e) {}
 
-  const examples = ["240.159.146.169","119.111.114.107","112.108.97.121","116.105.116.115","67.79.67.75","240.159.144.147","96.79.125.89","123.244.1.0"];
+  const examples = ["240.159.146.169","61.216.6.222","119.111.114.107","112.108.97.121","116.105.116.115","67.79.67.75","240.159.144.147","96.79.125.89","123.244.1.0"];
 
   return (
     <div className="ReverseApp">
       <input className="EmojiInput" value={input} onChange={e => setInput(e.target.value)} placeholder="Enter an IPv4 address" />
       { bytes && <p className="ByteList">Hex Bytes: {bytes.map((c, i) => <span key={i}>{c.toString(16).toUpperCase().padStart(2, "0")}</span>)}</p> }
+      { myIP && <p className="Examples">My IP: <button className="LinkButton" onClick={() => setInput(myIP)}>{myIP}</button></p> }
       <p className="Examples">Examples: {examples.map((example, i) => <button key={i} className="LinkButton" onClick={() => setInput(example)}>{example}</button>)}</p>
       {
         bytes && utf8String &&

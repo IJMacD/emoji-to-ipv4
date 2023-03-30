@@ -15,6 +15,10 @@
   flex-direction: column;
 }
 
+.Examples {
+  margin: 0 0 0.5em;
+}
+
 .LinkButton {
   background: none;
   border: none;

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/emoji-to-ipv4/static/css/main.c01b58c1.css",
-    "main.js": "/emoji-to-ipv4/static/js/main.eb7e6322.js",
+    "main.css": "/emoji-to-ipv4/static/css/main.e02b7ff7.css",
+    "main.js": "/emoji-to-ipv4/static/js/main.f097b86c.js",
     "index.html": "/emoji-to-ipv4/index.html",
-    "main.c01b58c1.css.map": "/emoji-to-ipv4/static/css/main.c01b58c1.css.map",
-    "main.eb7e6322.js.map": "/emoji-to-ipv4/static/js/main.eb7e6322.js.map"
+    "main.e02b7ff7.css.map": "/emoji-to-ipv4/static/css/main.e02b7ff7.css.map",
+    "main.f097b86c.js.map": "/emoji-to-ipv4/static/js/main.f097b86c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c01b58c1.css",
-    "static/js/main.eb7e6322.js"
+    "static/css/main.e02b7ff7.css",
+    "static/js/main.f097b86c.js"
   ]
 }

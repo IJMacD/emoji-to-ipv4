@@ -1,10 +1,21 @@
 .App {
+  padding: 1em;
+}
+
+@media (min-width: 768px) {
+  .App {
+    padding: 2em;
+  }
+}
+
+.ForwardApp,
+.ReverseApp
+{
   display: flex;
   flex-direction: column;
 }
 
-.ModeButton {
-  margin-left: 2em;
+.LinkButton {
   background: none;
   border: none;
   color: darkblue;
@@ -14,7 +25,7 @@
 
 .EmojiInput {
   font-size: 2em;
-  margin: 1em;
+  margin: 1em 0;
 }
 
 .IPEntry {
@@ -37,5 +48,21 @@
   color: #666;
   font-size: 0.8em;
   margin-top: -2em;
-  margin-left: 2rem;
+}
+
+.ByteList span {
+  margin-right: 0.2em;
+}
+
+.ByteList span:nth-child(4n) {
+  border-right: 1px dashed #666;
+  padding-right: 0.2em;
+}
+
+.ByteList span:last-child {
+  border-right: none;
+}
+
+.Bytes {
+  font-family: 'Courier New', Courier, monospace;
 }
